@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Mon CV</title>
+  <link rel="stylesheet" href="./assets/css/index.css" >
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="icon" href="./assets/images/favicon/favicon.ico" type="image/x-icon" >
+</head>
+<body>
+  <div class="cv-container">
+
+    <!-- En-tête du CV avec photo et coordonnées -->
+    <header class="header-cv">
+      <div class="header-container">
+        <div class="header-left">
+          <a href="./assets/images/photo-profil.jpg" target="_blank" title="Cliquez pour agrandir la photo">
+            <img src="./assets/images/photo-profil.jpg" alt="Photo Léa Martin" >
+          </a>
+        </div>
+        <div class="header-right">
+          <h1>Léa Martin</h1>
+          <h2>Développeur Web et Web Mobile</h2>
+          <div class="contact-grid">
+            <div class="contact-item email">
+              <img src="./assets/images/icons/envelope-solid.svg" alt="Email" class="icon" >
+              <a href="mailto:dev.lea@gmail.com">Mail</a>
+            </div>
+            <div class="contact-item address">
+              <img src="./assets/images/icons/house-solid.svg" alt="Adresse" class="icon" >
+              <a href="https://www.google.com/maps/search/?api=1&query=Furiani,Corse,France" target="_blank" rel="noopener noreferrer">Adresse</a>
+            </div>
+            <div class="contact-item phone">
+              <img src="./assets/images/icons/phone-solid.svg" alt="Téléphone" class="icon" >
+              <a href="tel:+33611646748">Téléphone</a>
+            </div>
+            <div class="contact-item permis">
+              <img src="./assets/images/icons/car-solid.svg" alt="Permis B" class="icon" >
+              <span>Permis B</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contenu principal en deux colonnes -->
+    <main>
+      <div class="main-columns">
+
+        <!-- Colonne gauche : Compétences, langues, qualités, centres d'intérêt -->
+        <div class="left-column">
+          <section class="skills">
+            <h2>Compétences</h2>
+            <ul>
+              <li><span class="skill-name">HTML</span><div class="stars">★★★★★</div></li>
+              <li><span class="skill-name">CSS</span><div class="stars">★★★★☆</div></li>
+              <li><span class="skill-name">JavaScript</span><div class="stars">★★★☆☆</div></li>
+              <li><span class="skill-name">PHP</span><div class="stars">★★★★☆</div></li>
+            </ul>
+          </section>
+
+          <section class="languages">
+            <h2>Langues</h2>
+            <ul>
+              <li><span class="language-name">Français</span> Langue maternelle</li>
+              <li><span class="language-name">Anglais</span> Niveau scolaire</li>
+              <li><span class="language-name">Espagnol</span> Niveau scolaire</li>
+            </ul>
+          </section>
+
+          <section class="qualities">
+            <h2>Qualités</h2>
+            <ul>
+              <li>Esprit d'équipe</li>
+              <li>Autonomie</li>
+              <li>Organisation</li>
+              <li>Créativité</li>
+            </ul>
+          </section>
+
+          <section class="interests">
+            <h2>Centres d'intérêt</h2>
+            <ul>
+              <li>Technologie</li>
+              <li>Développement Web</li>
+              <li>Apprentissage en ligne</li>
+              <li>Voyage</li>
+              <li>Photographie</li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- Colonne droite : Profil, formations, stages, expérience -->
+        <div class="right-column">
+          <section class="profile">
+            <h2>Profil</h2>
+            <p class="profile-text">
+              Ancienne ATSEM passionnée par le numérique et les technologies, je suis actuellement en formation au Centre Européen de Formation pour devenir développeuse Web Full Stack. Mon objectif: combiner mon sens de l'organisation, mon expérience humaine et ma curiosité technique pour créer des solutions web utiles et bien pensées.
+            </p>
+          </section>
+
+          <section class="education">
+            <h2>Formations</h2>
+            <ul>
+              <!-- Liste chronologique des formations -->
+              <li>
+                <h3>Titre Professionnel DWWM</h3>
+                <p>Centre Européen de Formation</p>
+                <p>2023/2024</p>
+              </li>
+              <li>
+                <h3>ATSEM - Concours</h3>
+                <p>Mairie de Bastia</p>
+                <p>Mai 2014</p>
+              </li>
+              <li>
+                <h3>CAP Petite Enfance</h3>
+                <p>CNED</p>
+                <p>Juin 2013</p>
+              </li>
+              <li>
+                <h3>Diplôme d'État Auxiliaire de Vie Sociale</h3>
+                <p>Gretta Montesoro</p>
+                <p>Janvier 2013</p>
+              </li>
+              <li>
+                <h3>CQPS Restauration</h3>
+                <p>École hôtelière de Provence</p>
+                <p>2011-2012</p>
+              </li>
+              <li>
+                <h3>PSC1, SST, PRAP</h3>
+                <p>Bastia</p>
+                <p>2010-2012</p>
+              </li>
+              <li>
+                <h3>Première Littéraire section Cinéma</h3>
+                <p>Lycée Giocante de Casabianca Bastia</p>
+                <p>2009-2010</p>
+              </li>
+              <li>
+                <h3>Brevet des Collèges</h3>
+                <p>Collège Giraud Bastia</p>
+                <p>2007-2008</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="internships">
+            <h2>Stages</h2>
+            <ul>
+              <!-- Liste des stages effectués -->
+              <li>
+                <h3>ATSEM</h3>
+                <p>École Saint-Joseph Bastia</p>
+                <p>Février - Avril 2013</p>
+              </li>
+              <li>
+                <h3>Agent en Petite Enfance</h3>
+                <p>Crèche Casa di Rossa Oletta</p>
+                <p>Janvier - Février 2013</p>
+              </li>
+              <li>
+                <h3>Auxiliaire de vie</h3>
+                <p>ADMR</p>
+                <p>Mars - Août 2012</p>
+              </li>
+              <li>
+                <h3>Agent en Petite Enfance</h3>
+                <p>Crèche municipale Bastia</p>
+                <p>Février - Mars 2012</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="experience">
+            <h2>Expérience professionnelle</h2>
+            <ul>
+              <!-- Historique des expériences professionnelles -->
+              <li>
+                <h3>ATSEM</h3>
+                <p>Mairie de Bastia</p>
+                <p>Mai 2014 - Juin 2025</p>
+              </li>
+              <li>
+                <h3>Accueil/Service/Ménage</h3>
+                <p>Festival Porto Latino Saint-Florent</p>
+                <p>Août 2010</p>
+              </li>
+              <li>
+                <h3>Serveuse en Restaurant</h3>
+                <p>Janvier - Juillet 2010</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Pied de page avec liens sociaux et date de mise à jour -->
+    <footer>
+      <div class="social-links">
+        <a href="https://github.com/dev-lea" target="_blank" rel="noopener noreferrer"><img src="./assets/images/icons/logo-github.png" alt="GitHub" ></a>
+        <a href="https://www.instagram.com/dev__lea/?next=%2F" target="_blank" rel="noopener noreferrer"><img src="./assets/images/icons/Logo-instagram.png" alt="Instagram" ></a>
+      </div>
+      <p>Mis à jour le : <span id="dateMaj"></span></p>
+    </footer>
+  </div>
+
+  <!-- Script pour afficher la date de mise à jour automatiquement -->
+  <script>
+    const date = new Date();
+    document.getElementById("dateMaj").textContent = date.toLocaleDateString("fr-FR");
+  </script>
+</body>
+</html>
